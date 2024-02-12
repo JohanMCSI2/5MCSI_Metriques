@@ -9,11 +9,11 @@ app = Flask(__name__)
                                                                                                                                        
 @app.route('/')
 def hello_world():
-    return render_template('hello.html')
+    return render_template('hello.html') #TassaditYACINE2
 
 @app.route("/contact/")
 def contact():
-    return render_template("contact.html")
+    return render_template("Contact.html")
 
 @app.route('/paris/')
 def meteo():
