@@ -13,7 +13,7 @@ def MaPremiereAPI():
     return render_template("contact.html")
 
 def hello_world():
-    return render_template('hello.html')#comm1
+    return render_template('contact.html')#comm1
   
 if __name__ == "__main__":
   app.run(debug=True)
